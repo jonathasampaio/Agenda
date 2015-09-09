@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="ActionBarActivityTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+        parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="android:background">@color/material_teal</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@color/material_teal</item>
+    </style>
+
+</resources>

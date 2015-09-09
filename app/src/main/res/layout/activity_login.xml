@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityFragment"
+    android:background="@drawable/img_fundo_360dp">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/img_logo_140dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="48dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/bt_face_152dp"
+        android:layout_marginBottom="7dp"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4" />
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="48dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/bt_google_152dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4" />
+
+    <ImageView
+        android:layout_width="312dp"
+        android:layout_height="47dp"
+        android:id="@+id/imageView4"
+        android:src="@drawable/bt_login_312dp"
+        android:layout_marginBottom="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
